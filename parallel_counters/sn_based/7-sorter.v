@@ -57,29 +57,30 @@ endmodule
 
 
 module seven_sorter(
-    input in0,
+    //input in0,
     input in1,
     input in2,
     input in3,
     input in4,
     input in5,
     input in6,
-    //input in7,
-    output out0,
+    input in7,
+    //output out0,
     output out1,
     output out2,
     output out3,
     output out4,
     output out5,
-    output out6
+    output out6,
+    output out7
 );
     //8 input even-odd sorting will cost 19 2-sorter
     //7 input is simply delete 1 input from 8 input even-odd sorting
     wire o0,o1,o2,o3,o4,o5,o6,o7;
     wire temp1,temp2,temp3,temp4,temp5,temp6;
     // //seven sorter is simply delete 1 input from 8-sorter
-    wire out7;
-    wire in7;
+    wire out0;
+    wire in0;
     four_sorter s0(in0,in1,in2,in3,o0,o1,o2,o3);
     four_sorter s1(in4,in5,in6,in7,o4,o5,o6,o7);
     // use even-odd merge
