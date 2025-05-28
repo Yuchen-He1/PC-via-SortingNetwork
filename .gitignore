@@ -1,0 +1,4 @@
+*.xml
+*.log
+__pycache__/
+sim_build/
