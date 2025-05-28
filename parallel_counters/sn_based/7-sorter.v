@@ -80,7 +80,7 @@ module seven_sorter(
     wire temp1,temp2,temp3,temp4,temp5,temp6;
     // //seven sorter is simply delete 1 input from 8-sorter
     wire out0;
-    wire in0;
+    wire in0 = 1'b0;
     four_sorter s0(in0,in1,in2,in3,o0,o1,o2,o3);
     four_sorter s1(in4,in5,in6,in7,o4,o5,o6,o7);
     // use even-odd merge
