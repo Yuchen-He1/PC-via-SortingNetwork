@@ -1,7 +1,7 @@
 // (7;3)counter via FA - Refactored
 module pc_fa_7_3(
-    input logic [6:0] d,
-    output logic [2:0] count_out
+    input  [6:0] d,
+    output  [2:0] count_out
 );
 
     wire s1, c1; // Outputs of fa0

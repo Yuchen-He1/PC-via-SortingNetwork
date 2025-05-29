@@ -1,9 +1,9 @@
 module full_adder (
-    input logic a,
-    input logic b,
-    input logic cin,
-    output logic sum,
-    output logic cout
+    input  a,
+    input  b,
+    input  cin,
+    output  sum,
+    output  cout
 );
 
     assign sum = a ^ b ^ cin;
