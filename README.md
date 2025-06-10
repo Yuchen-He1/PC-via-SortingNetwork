@@ -3,6 +3,7 @@
 ```
 cd tests/corresponding_test
 python3 -m venv
+source ./venv/bin/activate
 pip install cocotb
 make
 ```
