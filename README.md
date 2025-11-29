@@ -9,3 +9,6 @@ make
 ```
 ## Source code under the parallel_counter directory
 ## Vivado project file and report under ./report and ./vivado_project_file directory
+
+## Paper Temporary Link
+<https://web.ece.ucsb.edu/~parhami/pubs_folder/parh25-iemcon-sorter-based-par-counters.pdf>
